@@ -2,8 +2,9 @@
   "manifest_version": 2,
   "name": "Special Characters",
   "version": "1.0",
+  "author": "Phil Tsarik",
 
-  "description": "Show a list of most used special characters",
+  "description": "Show a list of useful special characters",
   "homepage_url": "https://github.com/phts/firefox-special-characters",
   "icons": {
     "48": "icons/app-48.png"
