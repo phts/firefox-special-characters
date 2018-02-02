@@ -10,6 +10,7 @@
 
     table {
       border-collapse: collapse;
+      width: 100%;
     }
 
     th {
@@ -17,9 +18,18 @@
       padding: 5px;
     }
 
-    tr td:first-child {
+    .main tr td:first-child,
+    .greek tr td:first-child,
+    .greek tr td:nth-child(3) {
       font-size: 20px;
       text-align: center;
+    }
+
+    .main tr td:nth-child(2),
+    .main tr td:nth-child(3),
+    .greek tr td:nth-child(2),
+    .greek tr td:nth-child(4) {
+      font-family: Courier New, monospace;
     }
 
     td {
@@ -30,7 +40,7 @@
 </head>
 <body>
 
-<table>
+<table class="main">
 <tr><th>символ</th><th>html-код</th><th>десятичный<br>код</th><th>описание</th></tr>
 <tr><td><span style="background:gray">&nbsp;</span> </td><td>&amp;nbsp; </td><td>&amp;#160;</td><td>неразрывный пробел</td></tr>
 <tr><td><span style="background:gray">&#8194;</span>  </td><td>&amp;ensp; </td><td>&amp;#8194;</td><td>узкий пробел (еn-шириной в букву n)</td></tr>
@@ -218,7 +228,7 @@
 <tr><td>&#9203;   </td><td>&nbsp; </td><td>&amp;#9203;</td><td>Песочные часы</td></tr>
 </table>
 
-<table>
+<table class="greek">
 <tr><th colspan="6">Греческий алфавит</th></tr>
 <tr><th colspan="2">строчные</th><th colspan="2">прописные</th><th rowspan="2">описание</th></tr>
 <tr><th>символ</th><th>html-код</th><th>символ</th><th>html-код</th></tr>
@@ -250,7 +260,7 @@
 </table>
 
 <hr>
-<a href="https://htmlweb.ru/html/symbols.php">https://htmlweb.ru/html/symbols.php</a>
+Taken from: <a href="https://htmlweb.ru/html/symbols.php">https://htmlweb.ru/html/symbols.php</a>
 
 </body>
 </html>
