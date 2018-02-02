@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Special Characters",
+  "version": "1.0",
+
+  "description": "Show a list of most used special characters",
+  "homepage_url": "https://github.com/phts/firefox-special-characters",
+  "icons": {
+    "48": "icons/app-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "special-characters@phts",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icons/button-32.png",
+    "default_title": "Special Characters",
+    "default_popup": "popup.html"
+  }
+}
