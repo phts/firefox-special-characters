@@ -1,0 +1,45 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #eee;
+  padding: 5px;
+}
+
+.main tr td:first-child,
+.greek tr td:first-child,
+.greek tr td:nth-child(3) {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main tr td:nth-child(2),
+.main tr td:nth-child(3),
+.greek tr td:nth-child(2),
+.greek tr td:nth-child(4) {
+  font-family: Courier New, monospace;
+}
+
+td {
+  padding: 1px 5px;
+  border: 1px solid black;
+}
+
+footer {
+  font-size: 9px;
+  margin-top: 1em;
+}
+footer ul {
+  margin: 0;
+  padding: 0 0 0 2em;
+}
+footer p {
+  margin: 0;
+}
