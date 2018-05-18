@@ -28,8 +28,10 @@ th {
 }
 
 td {
-  padding: 1px 5px;
   border: 1px solid black;
+  cursor: context-menu;
+  padding: 1px 5px;
+  position: relative;
 }
 
 footer {
@@ -42,4 +44,20 @@ footer ul {
 }
 footer p {
   margin: 0;
+}
+
+td.copy-success::after,
+td.copy-failed::after {
+  font-size: 16px;
+  position: absolute;
+  right: 0.2em;
+  top: 0.2em;
+}
+td.copy-success::after {
+  color: #088A08;
+  content: '\2713';
+}
+td.copy-failed::after {
+  color: #B40404;
+  content: '\2717';
 }
