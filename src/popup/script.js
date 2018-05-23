@@ -55,7 +55,7 @@ function copyOnClickHandler(event) {
   if (!target.innerHTML) {
     return
   }
-  const text = target.textContent
+  const text = target.hasAttribute('data-copy') ? target.getAttribute('data-copy') : target.textContent
   copyTextToClipboard(text)
     .then(() => {
       showSuccess(target)
