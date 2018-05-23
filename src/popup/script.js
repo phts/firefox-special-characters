@@ -11,7 +11,7 @@ function fallbackCopyTextToClipboard(text) {
     try {
       const result = !!document.execCommand('copy')
       if (!result) {
-        reject(`execCommand('copy') returned false`)
+        reject('execCommand("copy") returned false')
       } else {
         resolve()
       }
