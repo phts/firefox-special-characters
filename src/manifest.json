@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Special Characters",
   "version": "1.1.2",
-  "author": "Phil Tsarik",
+  "author": "Phil Tsaryk",
 
   "description": "Show a list of useful special characters",
   "homepage_url": "https://github.com/phts/firefox-special-characters",
