@@ -1,0 +1,16 @@
+{
+  "name": "special-characters",
+  "private": true,
+  "scripts": {
+    "build": "npm-run-all -s clean xpi",
+    "clean": "rimraf dist",
+    "release": "webext-release",
+    "postrelease": "npm run build",
+    "xpi": "webext-xpi"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "rimraf": "^2.6.2",
+    "webextension-devtools": "^0.1.1"
+  }
+}
