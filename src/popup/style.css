@@ -13,17 +13,23 @@ th {
   padding: 5px;
 }
 
-.main tr td:first-child,
-.greek tr td:first-child,
-.greek tr td:nth-child(3) {
+.col-4 tr td:first-child,
+.col-5 tr td:first-child,
+.col-5 tr td:nth-child(3),
+.col-6 tr td:nth-child(1),
+.col-6 tr td:nth-child(3),
+.col-6 tr td:nth-child(5) {
   font-size: 20px;
   text-align: center;
 }
 
-.main tr td:nth-child(2),
-.main tr td:nth-child(3),
-.greek tr td:nth-child(2),
-.greek tr td:nth-child(4) {
+.col-4 tr td:nth-child(2),
+.col-4 tr td:nth-child(3),
+.col-5 tr td:nth-child(2),
+.col-5 tr td:nth-child(4),
+.col-6 tr td:nth-child(2),
+.col-6 tr td:nth-child(4),
+.col-6 tr td:nth-child(6) {
   font-family: Courier New, monospace;
 }
 
@@ -54,10 +60,10 @@ td.copy-failed::after {
   top: 0.2em;
 }
 td.copy-success::after {
-  color: #088A08;
+  color: #088a08;
   content: '\2713';
 }
 td.copy-failed::after {
-  color: #B40404;
+  color: #b40404;
   content: '\2717';
 }
