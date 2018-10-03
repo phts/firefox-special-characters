@@ -48,14 +48,18 @@ function showFailed(target) {
 
 function copyOnClickHandler(event) {
   const evTarget = event.target
-  const target = evTarget.tagName === 'SPAN' && evTarget.parentElement.tagName === 'TD' ? evTarget.parentElement : evTarget
+  const target = evTarget.tagName === 'SPAN' && evTarget.parentElement.tagName === 'TD'
+    ? evTarget.parentElement
+    : evTarget
   if (!target.tagName === 'TD') {
     return
   }
   if (!target.innerHTML) {
     return
   }
-  const text = target.hasAttribute('data-copy') ? target.getAttribute('data-copy') : target.textContent
+  const text = target.hasAttribute('data-copy')
+    ? target.getAttribute('data-copy')
+    : target.textContent
   copyTextToClipboard(text)
     .then(() => {
       showSuccess(target)
