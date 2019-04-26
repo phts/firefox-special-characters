@@ -7,322 +7,324 @@
 </head>
 <body>
 
-<table class="col-4">
-<tr><th>Символ</th><th>HTML-код</th><th>Десятичный<br>код</th><th>Описание</th></tr>
-<tr><td><span style="background:gray">&nbsp;</span></td><td>&amp;nbsp;</td><td>&amp;#160;</td><td>Неразрывный пробел</td></tr>
-<tr><td><span style="background:gray">&#8194;</span></td><td>&amp;ensp;</td><td>&amp;#8194;</td><td>Узкий пробел (еn-шириной в букву n)</td></tr>
-<tr><td><span style="background:gray">&#8195;</span></td><td>&amp;emsp;</td><td>&amp;#8195;</td><td>Широкий пробел (em-шириной в букву m)</td></tr>
-<tr><td>&#8211;</td><td>&amp;ndash;</td><td>&amp;#8211;</td><td>Узкое тире (en-тире)</td></tr>
-<tr><td>&#8212;</td><td>&amp;mdash;</td><td>&amp;#8212;</td><td>Широкое тире (em -тире)</td></tr>
-<tr><td>&#173;</td><td>&amp;shy;</td><td>&amp;#173;</td><td>Мягкий перенос</td></tr>
+<table class="main">
+<tr><th>Символ</th><th colspan="2">HTML-код</th><th>CSS</th><th>Описание</th></tr>
+<tr><td><span style="background:gray">&nbsp;</span></td><td>&amp;nbsp;</td><td>&amp;#160;</td><td>\00a0</td><td>Неразрывный пробел</td></tr>
+<tr><td><span style="background:gray">&#8194;</span></td><td>&amp;ensp;</td><td>&amp;#8194;</td><td>\2002</td><td>Узкий пробел (еn-шириной в букву n)</td></tr>
+<tr><td><span style="background:gray">&#8195;</span></td><td>&amp;emsp;</td><td>&amp;#8195;</td><td>\2003</td><td>Широкий пробел (em-шириной в букву m)</td></tr>
+<tr><td>&#8211;</td><td>&amp;ndash;</td><td>&amp;#8211;</td><td>\2013</td><td>Узкое тире (en-тире)</td></tr>
+<tr><td>&#8212;</td><td>&amp;mdash;</td><td>&amp;#8212;</td><td>\2014</td><td>Широкое тире (em -тире)</td></tr>
+<tr><td>&#173;</td><td>&amp;shy;</td><td>&amp;#173;</td><td>\00ad</td><td>Мягкий перенос</td></tr>
 
-<tr><th colspan="4"></th></tr>
-<tr><td>&copy;</td><td>&amp;copy;</td><td>&amp;#169;</td><td>Копирайт</td></tr>
-<tr><td>&reg;</td><td>&amp;reg;</td><td>&amp;#174;</td><td>Знак зарегистрированной торговой марки</td></tr>
-<tr><td>&trade;</td><td>&amp;trade;</td><td>&amp;#8482;</td><td>Знак торговой марки</td></tr>
-<tr><td>&#186;</td><td>&amp;ordm;</td><td>&amp;#186;</td><td>Копье Марса</td></tr>
-<tr><td>&#170;</td><td>&amp;ordf;</td><td>&amp;#170;</td><td>Зеркало Венеры</td></tr>
-<tr><td>&permil;</td><td>&amp;permil;</td><td>&amp;#8240;</td><td>Промилле</td></tr>
-<tr><td style="font-size:23pt;font-family:Times New Roman,serif;">&pi;</td><td>&amp;pi;</td><td>&amp;#960;</td><td>Пи (используйте Times New Roman)</td></tr>
-<tr><td>&#166;</td><td>&amp;brvbar;</td><td>&amp;#166;</td><td>Вертикальный пунктир</td></tr>
-<tr><td>&sect;</td><td>&amp;sect;</td><td>&amp;#167;</td><td>Параграф</td></tr>
-<tr><td>&deg;</td><td>&amp;deg;</td><td>&amp;#176;</td><td>Градус</td></tr>
-<tr><td>&micro;</td><td>&amp;micro;</td><td>&amp;#181;</td><td>Знак "микро"</td></tr>
-<tr><td>&para;</td><td>&amp;para;</td><td>&amp;#182;</td><td>Знак абзаца</td></tr>
-<tr><td>&#8230;</td><td>&amp;hellip;</td><td>&amp;#8230;</td><td>Многоточие</td></tr>
-<tr><td>&#8254;</td><td>&amp;oline;</td><td>&amp;#8254;</td><td>Надчеркивание</td></tr>
-<tr><td>&#180;</td><td>&amp;acute;</td><td>&amp;#180;</td><td>Знак ударения</td></tr>
-<tr><td>&#8470;</td><td></td><td>&amp;#8470;</td><td>Знак номера</td></tr>
-<tr><td>&#161;</td><td></td><td>&amp;#161;</td><td>Перевернутый восклицательный знак</td></tr>
-<tr><td>&#191;</td><td></td><td>&amp;#191;</td><td>Перевернутый вопросительный знак</td></tr>
+<tr><th colspan="5"></th></tr>
+<tr><td>&copy;</td><td>&amp;copy;</td><td>&amp;#169;</td><td>\00a9</td><td>Копирайт</td></tr>
+<tr><td>&reg;</td><td>&amp;reg;</td><td>&amp;#174;</td><td>\00ae</td><td>Знак зарегистрированной торговой марки</td></tr>
+<tr><td>&trade;</td><td>&amp;trade;</td><td>&amp;#8482;</td><td>\2122</td><td>Знак торговой марки</td></tr>
+<tr><td>&#186;</td><td>&amp;ordm;</td><td>&amp;#186;</td><td>\00ba</td><td>Копье Марса</td></tr>
+<tr><td>&#170;</td><td>&amp;ordf;</td><td>&amp;#170;</td><td>\00aa</td><td>Зеркало Венеры</td></tr>
+<tr><td>&permil;</td><td>&amp;permil;</td><td>&amp;#8240;</td><td>\2030</td><td>Промилле</td></tr>
+<tr><td style="font-size:23pt;font-family:Times New Roman,serif;">&pi;</td><td>&amp;pi;</td><td>&amp;#960;</td><td>\3C0</td><td>Пи (используйте Times New Roman)</td></tr>
+<tr><td>&#166;</td><td>&amp;brvbar;</td><td>&amp;#166;</td><td>\00a6</td><td>Вертикальный пунктир</td></tr>
+<tr><td>&sect;</td><td>&amp;sect;</td><td>&amp;#167;</td><td>\00a7</td><td>Параграф</td></tr>
+<tr><td>&deg;</td><td>&amp;deg;</td><td>&amp;#176;</td><td>\00b0</td><td>Градус</td></tr>
+<tr><td>&micro;</td><td>&amp;micro;</td><td>&amp;#181;</td><td>\00b5</td><td>Знак "микро"</td></tr>
+<tr><td>&para;</td><td>&amp;para;</td><td>&amp;#182;</td><td>\00b6</td><td>Знак абзаца</td></tr>
+<tr><td>&#8230;</td><td>&amp;hellip;</td><td>&amp;#8230;</td><td>\2026</td><td>Многоточие</td></tr>
+<tr><td>&#8254;</td><td>&amp;oline;</td><td>&amp;#8254;</td><td>\203e</td><td>Надчеркивание</td></tr>
+<tr><td>&#180;</td><td>&amp;acute;</td><td>&amp;#180;</td><td>\00b4</td><td>Знак ударения</td></tr>
+<tr><td>&#8470;</td><td></td><td>&amp;#8470;</td><td>\2116</td><td>Знак номера</td></tr>
+<tr><td>&#161;</td><td></td><td>&amp;#161;</td><td>\00a1</td><td>Перевернутый восклицательный знак</td></tr>
+<tr><td>&#191;</td><td></td><td>&amp;#191;</td><td>\00bf</td><td>Перевернутый вопросительный знак</td></tr>
 
-<tr><th colspan="4">Знаки арифметических и математических операций</th></tr>
-<tr><td>&#215;</td><td>&amp;times;</td><td>&amp;#215;</td><td>Умножить</td></tr>
-<tr><td>&divide;</td><td>&amp;divide;</td><td>&amp;#247;</td><td>Разделить</td></tr>
-<tr><td>&lt;</td><td>&amp;lt;</td><td>&amp;#60;</td><td>Меньше</td></tr>
-<tr><td>&gt;</td><td>&amp;gt;</td><td>&amp;#62;</td><td>Больше</td></tr>
-<tr><td>&#177;</td><td>&amp;plusmn;</td><td>&amp;#177;</td><td>Плюс/минус</td></tr>
-<tr><td>&sup1;</td><td>&amp;sup1;</td><td>&amp;#185;</td><td>Степень 1</td></tr>
-<tr><td>&sup2;</td><td>&amp;sup2;</td><td>&amp;#178;</td><td>Степень 2</td></tr>
-<tr><td>&sup3;</td><td>&amp;sup3;</td><td>&amp;#179;</td><td>Степень 3</td></tr>
-<tr><td>&not;</td><td>&amp;not;</td><td>&amp;#172;</td><td>Отрицание</td></tr>
-<tr><td>&frac14;</td><td>&amp;frac14;</td><td>&amp;#188;</td><td>Одна четвертая</td></tr>
-<tr><td>&frac12;</td><td>&amp;frac12;</td><td>&amp;#189;</td><td>Одна вторая</td></tr>
-<tr><td>&frac34;</td><td>&amp;frac34;</td><td>&amp;#190;</td><td>Три четверти</td></tr>
-<tr><td>&#8260;</td><td>&amp;frasl;</td><td>&amp;#8260;</td><td>Дробная черта</td></tr>
-<tr><td>&#8722;</td><td>&amp;minus;</td><td>&amp;#8722;</td><td>Минус</td></tr>
-<tr><td>&#8804;</td><td>&amp;le;</td><td>&amp;#8804;</td><td>Меньше или равно</td></tr>
-<tr><td>&#8805;</td><td>&amp;ge;</td><td>&amp;#8805;</td><td>Больше или равно</td></tr>
-<tr><td>&#8776;</td><td>&amp;asymp;</td><td>&amp;#8776;</td><td>Приблизительно (почти) равно</td></tr>
-<tr><td>&#8800;</td><td>&amp;ne;</td><td>&amp;#8800;</td><td>Не равно</td></tr>
-<tr><td>&#8801;</td><td>&amp;equiv;</td><td>&amp;#8801;</td><td>Тождественно</td></tr>
-<tr><td>&#8730;</td><td>&amp;radic;</td><td>&amp;#8730;</td><td>Квадратный корень (радикал)</td></tr>
-<tr><td>&#8734;</td><td>&amp;infin;</td><td>&amp;#8734;</td><td>Бесконечность</td></tr>
-<tr><td>&#8721;</td><td>&amp;sum;</td><td>&amp;#8721;</td><td>Знак суммирования</td></tr>
-<tr><td>&#8719;</td><td>&amp;prod;</td><td>&amp;#8719;</td><td>Знак произведения</td></tr>
-<tr><td>&#8706;</td><td>&amp;part;</td><td>&amp;#8706;</td><td>Частичный дифференциал</td></tr>
-<tr><td>&#8747;</td><td>&amp;int;</td><td>&amp;#8747;</td><td>Интеграл</td></tr>
-<tr><td>&forall;</td><td>&amp;forall;</td><td>&amp;#8704;</td><td>Для всех (видно только если жирным шрифтом)</td></tr>
-<tr><td>&exist;</td><td>&amp;exist;</td><td>&amp;#8707;</td><td>Существует</td></tr>
-<tr><td>&empty;</td><td>&amp;empty;</td><td>&amp;#8709;</td><td>Пустое множество</td></tr>
-<tr><td>&Oslash;</td><td>&amp;Oslash;</td><td>&amp;#216;</td><td>Диаметр</td></tr>
-<tr><td>&isin;</td><td>&amp;isin;</td><td>&amp;#8712;</td><td>Принадлежит</td></tr>
-<tr><td>&notin;</td><td>&amp;notin;</td><td>&amp;#8713;</td><td>Не принадлежит</td></tr>
-<tr><td>&ni;</td><td>&amp;ni;</td><td>&amp;#8727;</td><td>Содержит</td></tr>
-<tr><td>&sub;</td><td>&amp;sub;</td><td>&amp;#8834;</td><td>Является подмножеством</td></tr>
-<tr><td>&sup;</td><td>&amp;sup;</td><td>&amp;#8835;</td><td>Является надмножеством</td></tr>
-<tr><td>&nsub;</td><td>&amp;nsub;</td><td>&amp;#8836;</td><td>Не является подмножеством</td></tr>
-<tr><td>&sube;</td><td>&amp;sube;</td><td>&amp;#8838;</td><td>Является подмножеством либо равно</td></tr>
-<tr><td>&supe;</td><td>&amp;supe;</td><td>&amp;#8839;</td><td>Является надмножеством либо равно</td></tr>
-<tr><td>&oplus;</td><td>&amp;oplus;</td><td>&amp;#8853;</td><td>Плюс в кружке</td></tr>
-<tr><td>&otimes;</td><td>&amp;otimes;</td><td>&amp;#8855;</td><td>Знак умножения в кружке</td></tr>
-<tr><td>&perp;</td><td>&amp;perp;</td><td>&amp;#8869;</td><td>Перпендикулярно</td></tr>
-<tr><td>&ang;</td><td>&amp;ang;</td><td>&amp;#8736;</td><td>Угол</td></tr>
-<tr><td>&and;</td><td>&amp;and;</td><td>&amp;#8743;</td><td>Логическое И</td></tr>
-<tr><td>&or;</td><td>&amp;or;</td><td>&amp;#8744;</td><td>Логическое ИЛИ</td></tr>
-<tr><td>&cap;</td><td>&amp;cap;</td><td>&amp;#8745;</td><td>Пересечение</td></tr>
-<tr><td>&cup;</td><td>&amp;cup;</td><td>&amp;#8746;</td><td>Объединение</td></tr>
+<tr><th colspan="5">Знаки арифметических и математических операций</th></tr>
+<tr><td>&#215;</td><td>&amp;times;</td><td>&amp;#215;</td><td>\00d7</td><td>Умножить</td></tr>
+<tr><td>&divide;</td><td>&amp;divide;</td><td>&amp;#247;</td><td>\00f7</td><td>Разделить</td></tr>
+<tr><td>&lt;</td><td>&amp;lt;</td><td>&amp;#60;</td><td>\003c</td><td>Меньше</td></tr>
+<tr><td>&gt;</td><td>&amp;gt;</td><td>&amp;#62;</td><td>\003e</td><td>Больше</td></tr>
+<tr><td>&#177;</td><td>&amp;plusmn;</td><td>&amp;#177;</td><td>\00b1</td><td>Плюс/минус</td></tr>
+<tr><td>&sup1;</td><td>&amp;sup1;</td><td>&amp;#185;</td><td>\00b9</td><td>Степень 1</td></tr>
+<tr><td>&sup2;</td><td>&amp;sup2;</td><td>&amp;#178;</td><td>\00b2</td><td>Степень 2</td></tr>
+<tr><td>&sup3;</td><td>&amp;sup3;</td><td>&amp;#179;</td><td>\00b3</td><td>Степень 3</td></tr>
+<tr><td>&not;</td><td>&amp;not;</td><td>&amp;#172;</td><td>\00ac</td><td>Отрицание</td></tr>
+<tr><td>&frac14;</td><td>&amp;frac14;</td><td>&amp;#188;</td><td>\00bc</td><td>Одна четвертая</td></tr>
+<tr><td>&frac12;</td><td>&amp;frac12;</td><td>&amp;#189;</td><td>\00bd</td><td>Одна вторая</td></tr>
+<tr><td>&frac34;</td><td>&amp;frac34;</td><td>&amp;#190;</td><td>\00be</td><td>Три четверти</td></tr>
+<tr><td>&#8260;</td><td>&amp;frasl;</td><td>&amp;#8260;</td><td>\2044</td><td>Дробная черта</td></tr>
+<tr><td>&#8722;</td><td>&amp;minus;</td><td>&amp;#8722;</td><td>\2212</td><td>Минус</td></tr>
+<tr><td>&#8804;</td><td>&amp;le;</td><td>&amp;#8804;</td><td>\2264</td><td>Меньше или равно</td></tr>
+<tr><td>&#8805;</td><td>&amp;ge;</td><td>&amp;#8805;</td><td>\2265</td><td>Больше или равно</td></tr>
+<tr><td>&#8776;</td><td>&amp;asymp;</td><td>&amp;#8776;</td><td>\2248</td><td>Приблизительно (почти) равно</td></tr>
+<tr><td>&#8800;</td><td>&amp;ne;</td><td>&amp;#8800;</td><td>\2260</td><td>Не равно</td></tr>
+<tr><td>&#8801;</td><td>&amp;equiv;</td><td>&amp;#8801;</td><td>\2261</td><td>Тождественно</td></tr>
+<tr><td>&#8730;</td><td>&amp;radic;</td><td>&amp;#8730;</td><td>\221a</td><td>Квадратный корень (радикал)</td></tr>
+<tr><td>&#8734;</td><td>&amp;infin;</td><td>&amp;#8734;</td><td>\221e</td><td>Бесконечность</td></tr>
+<tr><td>&#8721;</td><td>&amp;sum;</td><td>&amp;#8721;</td><td>\2211</td><td>Знак суммирования</td></tr>
+<tr><td>&#8719;</td><td>&amp;prod;</td><td>&amp;#8719;</td><td>\220f</td><td>Знак произведения</td></tr>
+<tr><td>&#8706;</td><td>&amp;part;</td><td>&amp;#8706;</td><td>\2202</td><td>Частичный дифференциал</td></tr>
+<tr><td>&#8747;</td><td>&amp;int;</td><td>&amp;#8747;</td><td>\222b</td><td>Интеграл</td></tr>
+<tr><td>&forall;</td><td>&amp;forall;</td><td>&amp;#8704;</td><td>\2200</td><td>Для всех (видно только если жирным шрифтом)</td></tr>
+<tr><td>&exist;</td><td>&amp;exist;</td><td>&amp;#8707;</td><td>\2203</td><td>Существует</td></tr>
+<tr><td>&empty;</td><td>&amp;empty;</td><td>&amp;#8709;</td><td>\2205</td><td>Пустое множество</td></tr>
+<tr><td>&Oslash;</td><td>&amp;Oslash;</td><td>&amp;#216;</td><td>\00d8</td><td>Диаметр</td></tr>
+<tr><td>&isin;</td><td>&amp;isin;</td><td>&amp;#8712;</td><td>\2208</td><td>Принадлежит</td></tr>
+<tr><td>&notin;</td><td>&amp;notin;</td><td>&amp;#8713;</td><td>\2209</td><td>Не принадлежит</td></tr>
+<tr><td>&ni;</td><td>&amp;ni;</td><td>&amp;#8727;</td><td>\2217</td><td>Содержит</td></tr>
+<tr><td>&sub;</td><td>&amp;sub;</td><td>&amp;#8834;</td><td>\2282</td><td>Является подмножеством</td></tr>
+<tr><td>&sup;</td><td>&amp;sup;</td><td>&amp;#8835;</td><td>\2283</td><td>Является надмножеством</td></tr>
+<tr><td>&nsub;</td><td>&amp;nsub;</td><td>&amp;#8836;</td><td>\2284</td><td>Не является подмножеством</td></tr>
+<tr><td>&sube;</td><td>&amp;sube;</td><td>&amp;#8838;</td><td>\2286</td><td>Является подмножеством либо равно</td></tr>
+<tr><td>&supe;</td><td>&amp;supe;</td><td>&amp;#8839;</td><td>\2287</td><td>Является надмножеством либо равно</td></tr>
+<tr><td>&oplus;</td><td>&amp;oplus;</td><td>&amp;#8853;</td><td>\2295</td><td>Плюс в кружке</td></tr>
+<tr><td>&otimes;</td><td>&amp;otimes;</td><td>&amp;#8855;</td><td>\2297</td><td>Знак умножения в кружке</td></tr>
+<tr><td>&perp;</td><td>&amp;perp;</td><td>&amp;#8869;</td><td>\22a5</td><td>Перпендикулярно</td></tr>
+<tr><td>&ang;</td><td>&amp;ang;</td><td>&amp;#8736;</td><td>\2220</td><td>Угол</td></tr>
+<tr><td>&and;</td><td>&amp;and;</td><td>&amp;#8743;</td><td>\2227</td><td>Логическое И</td></tr>
+<tr><td>&or;</td><td>&amp;or;</td><td>&amp;#8744;</td><td>\2228</td><td>Логическое ИЛИ</td></tr>
+<tr><td>&cap;</td><td>&amp;cap;</td><td>&amp;#8745;</td><td>\2229</td><td>Пересечение</td></tr>
+<tr><td>&cup;</td><td>&amp;cup;</td><td>&amp;#8746;</td><td>\222a</td><td>Объединение</td></tr>
 
-<tr><th colspan="4">Знаки валют</th></tr>
-<tr><td>&euro;</td><td>&amp;euro;</td><td>&amp;#8364;</td><td>Евро</td></tr>
-<tr><td>&cent;</td><td>&amp;cent;</td><td>&amp;#162;</td><td>Цент</td></tr>
-<tr><td>&pound;</td><td>&amp;pound;</td><td>&amp;#163;</td><td>Фунт</td></tr>
-<tr><td>&#164;</td><td>&amp;current;</td><td>&amp;#164;</td><td>Знак валюты</td></tr>
-<tr><td>&yen;</td><td>&amp;yen;</td><td>&amp;#165;</td><td>Знак йены и юаня</td></tr>
-<tr><td>&#402;</td><td>&amp;fnof;</td><td>&amp;#402;</td><td>Знак флорина</td></tr>
-<tr><td>&#8381;</td><td></td><td>&amp;#8381;</td><td>Знак рубля</td></tr>
+<tr><th colspan="5">Знаки валют</th></tr>
+<tr><td>&euro;</td><td>&amp;euro;</td><td>&amp;#8364;</td><td>\20ac</td><td>Евро</td></tr>
+<tr><td>&cent;</td><td>&amp;cent;</td><td>&amp;#162;</td><td>\00a2</td><td>Цент</td></tr>
+<tr><td>&pound;</td><td>&amp;pound;</td><td>&amp;#163;</td><td>\00a3</td><td>Фунт</td></tr>
+<tr><td>&#164;</td><td>&amp;current;</td><td>&amp;#164;</td><td>\00a4</td><td>Знак валюты</td></tr>
+<tr><td>&yen;</td><td>&amp;yen;</td><td>&amp;#165;</td><td>\00a5</td><td>Знак йены и юаня</td></tr>
+<tr><td>&#402;</td><td>&amp;fnof;</td><td>&amp;#402;</td><td>\192</td><td>Знак флорина</td></tr>
+<tr><td>&#8381;</td><td></td><td>&amp;#8381;</td><td>\20bd</td><td>Знак рубля</td></tr>
 
-<tr><th colspan="4">Маркеры</th></tr>
-<tr><td>&#8226;</td><td>&amp;bull;</td><td>&amp;#8226;</td><td>Простой маркер</td></tr>
-<tr><td>&#9675;</td><td></td><td>&amp;#9675;</td><td>Круг</td></tr>
-<tr><td>&#183;</td><td>&amp;middot;</td><td>&amp;#183;</td><td>Средняя точка</td></tr>
-<tr><td>&#8224;</td><td></td><td>&amp;#8224;</td><td>Крестик</td></tr>
-<tr><td>&#8225;</td><td></td><td>&amp;#8225;</td><td>Двойной крестик</td></tr>
-<tr><td>&#9824;</td><td>&amp;spades;</td><td>&amp;#9824;</td><td>Пики</td></tr>
-<tr><td>&#9827;</td><td>&amp;clubs;</td><td>&amp;#9827;</td><td>Трефы</td></tr>
-<tr><td>&#9829;</td><td>&amp;hearts;</td><td>&amp;#9829;</td><td>Червы</td></tr>
-<tr><td>&#9830;</td><td>&amp;diams;</td><td>&amp;#9830;</td><td>Бубны</td></tr>
-<tr><td>&#9674;</td><td>&amp;loz;</td><td>&amp;#9674;</td><td>Ромб</td></tr>
-<tr><td>&#9999;</td><td></td><td>&amp;#9999;</td><td>Карандаш</td></tr>
-<tr><td>&#9998;</td><td></td><td>&amp;#9998;</td><td>Карандаш</td></tr>
-<tr><td>&#10000;</td><td></td><td>&amp;#10000;</td><td>Карандаш</td></tr>
-<tr><td>&#9997;</td><td></td><td>&amp;#9997;</td><td>Рука</td></tr>
-<tr><td>&#10084;</td><td></td><td>&amp;#10084;</td><td>Жирное сердце</td></tr>
-<tr><td>&#9744;</td><td></td><td>&amp;#9744;</td><td>Избирательная урна</td></tr>
-<tr><td>&#9745;</td><td></td><td>&amp;#9745;</td><td>Избирательная урна с галочкой</td></tr>
-<tr><td>&#9746;</td><td></td><td>&amp;#9746;</td><td>Избирательная урна с крестиком</td></tr>
-<tr><td>&#9986;</td><td></td><td>&amp;#9986;</td><td>Жирные ножницы</td></tr>
-<tr><td>&#10003;</td><td></td><td>&amp;#10003;</td><td>Символ галочка</td></tr>
-<tr><td>&#10004;</td><td></td><td>&amp;#10004;</td><td>Жирная отметка галочкой</td></tr>
-<tr><td>&#10007;</td><td></td><td>&amp;#10007;</td><td>Крестик в анкете голосования</td></tr>
-<tr><td>&#10008;</td><td></td><td>&amp;#10008;</td><td>Жирный крестик в анкете голосования</td></tr>
+<tr><th colspan="5">Маркеры</th></tr>
+<tr><td>&#8226;</td><td>&amp;bull;</td><td>&amp;#8226;</td><td>\2022</td><td>Простой маркер</td></tr>
+<tr><td>&#9675;</td><td></td><td>&amp;#9675;</td><td>\25cb</td><td>Круг</td></tr>
+<tr><td>&#183;</td><td>&amp;middot;</td><td>&amp;#183;</td><td>\00b7</td><td>Средняя точка</td></tr>
+<tr><td>&#8224;</td><td></td><td>&amp;#8224;</td><td>\2020</td><td>Крестик</td></tr>
+<tr><td>&#8225;</td><td></td><td>&amp;#8225;</td><td>\2021</td><td>Двойной крестик</td></tr>
+<tr><td>&#9824;</td><td>&amp;spades;</td><td>&amp;#9824;</td><td>\2660</td><td>Пики</td></tr>
+<tr><td>&#9827;</td><td>&amp;clubs;</td><td>&amp;#9827;</td><td>\2663</td><td>Трефы</td></tr>
+<tr><td>&#9829;</td><td>&amp;hearts;</td><td>&amp;#9829;</td><td>\2665</td><td>Червы</td></tr>
+<tr><td>&#9830;</td><td>&amp;diams;</td><td>&amp;#9830;</td><td>\2666</td><td>Бубны</td></tr>
+<tr><td>&#9674;</td><td>&amp;loz;</td><td>&amp;#9674;</td><td>\25ca</td><td>Ромб</td></tr>
+<tr><td>&#9999;</td><td></td><td>&amp;#9999;</td><td>\270f</td><td>Карандаш</td></tr>
+<tr><td>&#9998;</td><td></td><td>&amp;#9998;</td><td>\270e</td><td>Карандаш</td></tr>
+<tr><td>&#10000;</td><td></td><td>&amp;#10000;</td><td>\2710</td><td>Карандаш</td></tr>
+<tr><td>&#9997;</td><td></td><td>&amp;#9997;</td><td>\270d</td><td>Рука</td></tr>
+<tr><td>&#10084;</td><td></td><td>&amp;#10084;</td><td>\2764</td><td>Жирное сердце</td></tr>
+<tr><td>&#9744;</td><td></td><td>&amp;#9744;</td><td>\2610</td><td>Избирательная урна</td></tr>
+<tr><td>&#9745;</td><td></td><td>&amp;#9745;</td><td>\2611</td><td>Избирательная урна с галочкой</td></tr>
+<tr><td>&#9746;</td><td></td><td>&amp;#9746;</td><td>\2612</td><td>Избирательная урна с крестиком</td></tr>
+<tr><td>&#9986;</td><td></td><td>&amp;#9986;</td><td>\2702</td><td>Жирные ножницы</td></tr>
+<tr><td>&#10003;</td><td></td><td>&amp;#10003;</td><td>\2713</td><td>Символ галочка</td></tr>
+<tr><td>&#10004;</td><td></td><td>&amp;#10004;</td><td>\2714</td><td>Жирная отметка галочкой</td></tr>
+<tr><td>&#10007;</td><td></td><td>&amp;#10007;</td><td>\2717</td><td>Крестик в анкете голосования</td></tr>
+<tr><td>&#10008;</td><td></td><td>&amp;#10008;</td><td>\2718</td><td>Жирный крестик в анкете голосования</td></tr>
 
-<tr><th colspan="4">Кавычки</th></tr>
-<tr><td>&quot;</td><td>&amp;quot;</td><td>&amp;#34;</td><td>Двойная кавычка</td></tr>
-<tr><td>&amp;</td><td>&amp;amp;</td><td>&amp;#38;</td><td>Амперсанд</td></tr>
-<tr><td>&laquo;</td><td>&amp;laquo;</td><td>&amp;#171;</td><td>Левая типографская кавычка (кавычка-елочка)</td></tr>
-<tr><td>&raquo;</td><td>&amp;raquo;</td><td>&amp;#187;</td><td>Правая типографская кавычка (кавычка-елочка)</td></tr>
-<tr><td>&#8249;</td><td></td><td>&amp;#8249;</td><td>Одиночная угловая кавычка открывающая</td></tr>
-<tr><td>&#8250;</td><td></td><td>&amp;#8250;</td><td>Одиночная угловая кавычка закрывающая</td></tr>
-<tr><td>&#8242;</td><td>&amp;prime;</td><td>&amp;#8242;</td><td>Штрих (минуты, футы)</td></tr>
-<tr><td>&#8243;</td><td>&amp;Prime;</td><td>&amp;#8243;</td><td>Двойной штрих (секунды, дюймы)</td></tr>
-<tr><td>&#8216;</td><td>&amp;lsquo;</td><td>&amp;#8216;</td><td>Левая верхняя одиночная кавычка</td></tr>
-<tr><td>&#8217;</td><td>&amp;rsquo;</td><td>&amp;#8217;</td><td>Правая верхняя одиночная кавычка</td></tr>
-<tr><td>&#8218;</td><td>&amp;sbquo;</td><td>&amp;#8218;</td><td>Правая нижняя одиночная кавычка</td></tr>
-<tr><td>&#8220;</td><td>&amp;ldquo;</td><td>&amp;#8220;</td><td>Кавычка-лапка левая</td></tr>
-<tr><td>&#8221;</td><td>&amp;rdquo;</td><td>&amp;#8221;</td><td>Кавычка-лапка правая верхняя</td></tr>
-<tr><td>&#8222;</td><td>&amp;bdquo;</td><td>&amp;#8222;</td><td>Кавычка-лапка правая нижняя</td></tr>
-<tr><td>&#10075;</td><td></td><td>&amp;#10075;</td><td>Одиночная английская кавычка открывающая</td></tr>
-<tr><td>&#10076;</td><td></td><td>&amp;#10076;</td><td>Одиночная английская кавычка закрывающая</td></tr>
-<tr><td>&#10077;</td><td></td><td>&amp;#10077;</td><td>Двойная английская кавычка открывающая</td></tr>
-<tr><td>&#10078;</td><td></td><td>&amp;#10078;</td><td>Двойная английская кавычка закрывающая</td></tr>
+<tr><th colspan="5">Кавычки</th></tr>
+<tr><td>&quot;</td><td>&amp;quot;</td><td>&amp;#34;</td><td>\0022</td><td>Двойная кавычка</td></tr>
+<tr><td>&amp;</td><td>&amp;amp;</td><td>&amp;#38;</td><td>\0026</td><td>Амперсанд</td></tr>
+<tr><td>&laquo;</td><td>&amp;laquo;</td><td>&amp;#171;</td><td>\00ab</td><td>Левая типографская кавычка (кавычка-елочка)</td></tr>
+<tr><td>&raquo;</td><td>&amp;raquo;</td><td>&amp;#187;</td><td>\00bb</td><td>Правая типографская кавычка (кавычка-елочка)</td></tr>
+<tr><td>&#8249;</td><td></td><td>&amp;#8249;</td><td>\2039</td><td>Одиночная угловая кавычка открывающая</td></tr>
+<tr><td>&#8250;</td><td></td><td>&amp;#8250;</td><td>\203a</td><td>Одиночная угловая кавычка закрывающая</td></tr>
+<tr><td>&#8242;</td><td>&amp;prime;</td><td>&amp;#8242;</td><td>\2032</td><td>Штрих (минуты, футы)</td></tr>
+<tr><td>&#8243;</td><td>&amp;Prime;</td><td>&amp;#8243;</td><td>\2033</td><td>Двойной штрих (секунды, дюймы)</td></tr>
+<tr><td>&#8216;</td><td>&amp;lsquo;</td><td>&amp;#8216;</td><td>\2018</td><td>Левая верхняя одиночная кавычка</td></tr>
+<tr><td>&#8217;</td><td>&amp;rsquo;</td><td>&amp;#8217;</td><td>\2019</td><td>Правая верхняя одиночная кавычка</td></tr>
+<tr><td>&#8218;</td><td>&amp;sbquo;</td><td>&amp;#8218;</td><td>\201a</td><td>Правая нижняя одиночная кавычка</td></tr>
+<tr><td>&#8220;</td><td>&amp;ldquo;</td><td>&amp;#8220;</td><td>\201c</td><td>Кавычка-лапка левая</td></tr>
+<tr><td>&#8221;</td><td>&amp;rdquo;</td><td>&amp;#8221;</td><td>\201d</td><td>Кавычка-лапка правая верхняя</td></tr>
+<tr><td>&#8222;</td><td>&amp;bdquo;</td><td>&amp;#8222;</td><td>\201e</td><td>Кавычка-лапка правая нижняя</td></tr>
+<tr><td>&#10075;</td><td></td><td>&amp;#10075;</td><td>\275b</td><td>Одиночная английская кавычка открывающая</td></tr>
+<tr><td>&#10076;</td><td></td><td>&amp;#10076;</td><td>\275c</td><td>Одиночная английская кавычка закрывающая</td></tr>
+<tr><td>&#10077;</td><td></td><td>&amp;#10077;</td><td>\275d</td><td>Двойная английская кавычка открывающая</td></tr>
+<tr><td>&#10078;</td><td></td><td>&amp;#10078;</td><td>\275e</td><td>Двойная английская кавычка закрывающая</td></tr>
 
-<tr><th colspan="4">Стрелки</th></tr>
-<tr><td>&#8592;</td><td>&amp;larr;</td><td>&amp;#8592;</td><td>Стрелка влево</td></tr>
-<tr><td>&#8593;</td><td>&amp;uarr;</td><td>&amp;#8593;</td><td>Стрелка вверх</td></tr>
-<tr><td>&#8594;</td><td>&amp;rarr;</td><td>&amp;#8594;</td><td>Стрелка вправо</td></tr>
-<tr><td>&#8595;</td><td>&amp;darr;</td><td>&amp;#8595;</td><td>Стрелка вниз</td></tr>
-<tr><td>&#8596;</td><td>&amp;harr;</td><td>&amp;#8596;</td><td>Стрелка влево и вправо</td></tr>
-<tr><td>&#8597;</td><td></td><td>&amp;#8597;</td><td>Стрелка вверх и вниз</td></tr>
-<tr><td>&crarr;</td><td>&amp;crarr;</td><td>&amp;#8629;</td><td>Возврат каретки</td></tr>
-<tr><td>&lArr;</td><td>&amp;lArr;</td><td>&amp;#8656;</td><td>Двойная стрелка влево</td></tr>
-<tr><td>&uArr;</td><td>&amp;uArr;</td><td>&amp;#8657;</td><td>Двойная стрелка вверх</td></tr>
-<tr><td>&rArr;</td><td>&amp;rArr;</td><td>&amp;#8658;</td><td>Двойная стрелка вправо</td></tr>
-<tr><td>&dArr;</td><td>&amp;dArr;</td><td>&amp;#8659;</td><td>Двойная стрелка вниз</td></tr>
-<tr><td>&hArr;</td><td>&amp;hArr;</td><td>&amp;#8660;</td><td>Двойная стрелка влево и вправо</td></tr>
-<tr><td>&#8661;</td><td></td><td>&amp;#8661;</td><td>Двойная стрелка вверх и вниз</td></tr>
-<tr><td>&#9650;</td><td></td><td>&amp;#9650;</td><td>Треугольная стрелка вверх</td></tr>
-<tr><td>&#9660;</td><td></td><td>&amp;#9660;</td><td>Треугольная стрелка вниз</td></tr>
-<tr><td>&#9658;</td><td></td><td>&amp;#9658;</td><td>Треугольная стрелка вправо</td></tr>
-<tr><td>&#9668;</td><td></td><td>&amp;#9668;</td><td>Треугольная стрелка влево</td></tr>
+<tr><th colspan="5">Стрелки</th></tr>
+<tr><td>&#8592;</td><td>&amp;larr;</td><td>&amp;#8592;</td><td>\2190</td><td>Стрелка влево</td></tr>
+<tr><td>&#8593;</td><td>&amp;uarr;</td><td>&amp;#8593;</td><td>\2191</td><td>Стрелка вверх</td></tr>
+<tr><td>&#8594;</td><td>&amp;rarr;</td><td>&amp;#8594;</td><td>\2192</td><td>Стрелка вправо</td></tr>
+<tr><td>&#8595;</td><td>&amp;darr;</td><td>&amp;#8595;</td><td>\2193</td><td>Стрелка вниз</td></tr>
+<tr><td>&#8596;</td><td>&amp;harr;</td><td>&amp;#8596;</td><td>\2194</td><td>Стрелка влево и вправо</td></tr>
+<tr><td>&#8597;</td><td></td><td>&amp;#8597;</td><td>\2195</td><td>Стрелка вверх и вниз</td></tr>
+<tr><td>&crarr;</td><td>&amp;crarr;</td><td>&amp;#8629;</td><td>\21b5</td><td>Возврат каретки</td></tr>
+<tr><td>&lArr;</td><td>&amp;lArr;</td><td>&amp;#8656;</td><td>\21d0</td><td>Двойная стрелка влево</td></tr>
+<tr><td>&uArr;</td><td>&amp;uArr;</td><td>&amp;#8657;</td><td>\21d1</td><td>Двойная стрелка вверх</td></tr>
+<tr><td>&rArr;</td><td>&amp;rArr;</td><td>&amp;#8658;</td><td>\21d2</td><td>Двойная стрелка вправо</td></tr>
+<tr><td>&dArr;</td><td>&amp;dArr;</td><td>&amp;#8659;</td><td>\21d3</td><td>Двойная стрелка вниз</td></tr>
+<tr><td>&hArr;</td><td>&amp;hArr;</td><td>&amp;#8660;</td><td>\21d4</td><td>Двойная стрелка влево и вправо</td></tr>
+<tr><td>&#8661;</td><td></td><td>&amp;#8661;</td><td>\21d5</td><td>Двойная стрелка вверх и вниз</td></tr>
+<tr><td>&#9650;</td><td></td><td>&amp;#9650;</td><td>\25b2</td><td>Треугольная стрелка вверх</td></tr>
+<tr><td>&#9660;</td><td></td><td>&amp;#9660;</td><td>\25bc</td><td>Треугольная стрелка вниз</td></tr>
+<tr><td>&#9658;</td><td></td><td>&amp;#9658;</td><td>\25ba</td><td>Треугольная стрелка вправо</td></tr>
+<tr><td>&#9668;</td><td></td><td>&amp;#9668;</td><td>\25c4</td><td>Треугольная стрелка влево</td></tr>
 
 <tr><th colspan="4">Звездочки, снежинки</th></tr>
-<tr><td>&#9731;</td><td></td><td>&amp;#9731;</td><td>Снеговик</td></tr>
-<tr><td>&#10052;</td><td></td><td>&amp;#10052;</td><td>Снежинка</td></tr>
-<tr><td>&#10053;</td><td></td><td>&amp;#10053;</td><td>Зажатая трилистниками снежинка</td></tr>
-<tr><td>&#10054;</td><td></td><td>&amp;#10054;</td><td>Жирная остроугольная снежинка</td></tr>
-<tr><td>&#9733;</td><td></td><td>&amp;#9733;</td><td>Закрашенная звезда</td></tr>
-<tr><td>&#9734;</td><td></td><td>&amp;#9734;</td><td>Незакрашенная звезда</td></tr>
-<tr><td>&#10026;</td><td></td><td>&amp;#10026;</td><td>Незакрашенная звезда в закрашенном круге</td></tr>
-<tr><td>&#10027;</td><td></td><td>&amp;#10027;</td><td>Закрашенная звезда с незакрашенным кругом внутри</td></tr>
-<tr><td>&#10031;</td><td></td><td>&amp;#10031;</td><td>Вращающаяся звезда</td></tr>
-<tr><td>&#9885;</td><td></td><td>&amp;#9885;</td><td>Начерченная белая звезда</td></tr>
-<tr><td>&#9898;</td><td></td><td>&amp;#9898;</td><td>Средний незакрашенный круг</td></tr>
-<tr><td>&#9899;</td><td></td><td>&amp;#9899;</td><td>Средний закрашенный круг</td></tr>
-<tr><td>&#9913;</td><td></td><td>&amp;#9913;</td><td>Секстиле</td></tr>
-<tr><td>&#10037;</td><td></td><td>&amp;#10037;</td><td>Восьмиконечная вращающаяся звезда</td></tr>
-<tr><td>&#10057;</td><td></td><td>&amp;#10057;</td><td>Звёздочка с шарообразными окончаниями</td></tr>
-<tr><td>&#10059;</td><td></td><td>&amp;#10059;</td><td>Жирная восьмиконечная каплеобразная звёздочка-пропеллер</td></tr>
-<tr><td>&#10042;</td><td></td><td>&amp;#10042;</td><td>Шестнадцатиконечная звёздочка</td></tr>
-<tr><td>&#10041;</td><td></td><td>&amp;#10041;</td><td>Двенадцатиконечная закрашенная звезда</td></tr>
-<tr><td>&#10040;</td><td></td><td>&amp;#10040;</td><td>Жирная восьмиконечная прямолинейная закрашенная звезда</td></tr>
-<tr><td>&#10038;</td><td></td><td>&amp;#10038;</td><td>Шестиконечная закрашенная звезда</td></tr>
-<tr><td>&#10039;</td><td></td><td>&amp;#10039;</td><td>Восьмиконечная прямолинейная закрашенная звезда</td></tr>
-<tr><td>&#10036;</td><td></td><td>&amp;#10036;</td><td>Восьмиконечная закрашенная звезда</td></tr>
-<tr><td>&#10035;</td><td></td><td>&amp;#10035;</td><td>Восьмиконечная звёздочка</td></tr>
-<tr><td>&#10034;</td><td></td><td>&amp;#10034;</td><td>Звёздочка с незакрашенным центром</td></tr>
-<tr><td>&#10033;</td><td></td><td>&amp;#10033;</td><td>Жирная звёздочка</td></tr>
-<tr><td>&#10023;</td><td></td><td>&amp;#10023;</td><td>Заострённая четырёхконечная незакрашенная звезда</td></tr>
-<tr><td>&#10022;</td><td></td><td>&amp;#10022;</td><td>Заострённая четырёхконечная закрашенная звезда</td></tr>
-<tr><td>&#9055;</td><td></td><td>&amp;#9055;</td><td>Звезда в круге</td></tr>
-<tr><td>&#8859;</td><td></td><td>&amp;#8859;</td><td>Снежинка в круге</td></tr>
+<tr><td>&#9731;</td><td></td><td>&amp;#9731;</td><td>\2603</td><td>Снеговик</td></tr>
+<tr><td>&#10052;</td><td></td><td>&amp;#10052;</td><td>\2744</td><td>Снежинка</td></tr>
+<tr><td>&#10053;</td><td></td><td>&amp;#10053;</td><td>\2745</td><td>Зажатая трилистниками снежинка</td></tr>
+<tr><td>&#10054;</td><td></td><td>&amp;#10054;</td><td>\2746</td><td>Жирная остроугольная снежинка</td></tr>
+<tr><td>&#9733;</td><td></td><td>&amp;#9733;</td><td>\2605</td><td>Закрашенная звезда</td></tr>
+<tr><td>&#9734;</td><td></td><td>&amp;#9734;</td><td>\2606</td><td>Незакрашенная звезда</td></tr>
+<tr><td>&#10026;</td><td></td><td>&amp;#10026;</td><td>\272a</td><td>Незакрашенная звезда в закрашенном круге</td></tr>
+<tr><td>&#10027;</td><td></td><td>&amp;#10027;</td><td>\272b</td><td>Закрашенная звезда с незакрашенным кругом внутри</td></tr>
+<tr><td>&#10031;</td><td></td><td>&amp;#10031;</td><td>\272f</td><td>Вращающаяся звезда</td></tr>
+<tr><td>&#9885;</td><td></td><td>&amp;#9885;</td><td>\269d</td><td>Начерченная белая звезда</td></tr>
+<tr><td>&#9898;</td><td></td><td>&amp;#9898;</td><td>\26aa</td><td>Средний незакрашенный круг</td></tr>
+<tr><td>&#9899;</td><td></td><td>&amp;#9899;</td><td>\26ab</td><td>Средний закрашенный круг</td></tr>
+<tr><td>&#9913;</td><td></td><td>&amp;#9913;</td><td>\26b9</td><td>Секстиле</td></tr>
+<tr><td>&#10037;</td><td></td><td>&amp;#10037;</td><td>\2735</td><td>Восьмиконечная вращающаяся звезда</td></tr>
+<tr><td>&#10057;</td><td></td><td>&amp;#10057;</td><td>\2749</td><td>Звёздочка с шарообразными окончаниями</td></tr>
+<tr><td>&#10059;</td><td></td><td>&amp;#10059;</td><td>\274b</td><td>Жирная восьмиконечная каплеобразная звёздочка-пропеллер</td></tr>
+<tr><td>&#10042;</td><td></td><td>&amp;#10042;</td><td>\273a</td><td>Шестнадцатиконечная звёздочка</td></tr>
+<tr><td>&#10041;</td><td></td><td>&amp;#10041;</td><td>\2739</td><td>Двенадцатиконечная закрашенная звезда</td></tr>
+<tr><td>&#10040;</td><td></td><td>&amp;#10040;</td><td>\2738</td><td>Жирная восьмиконечная прямолинейная закрашенная звезда</td></tr>
+<tr><td>&#10038;</td><td></td><td>&amp;#10038;</td><td>\2736</td><td>Шестиконечная закрашенная звезда</td></tr>
+<tr><td>&#10039;</td><td></td><td>&amp;#10039;</td><td>\2737</td><td>Восьмиконечная прямолинейная закрашенная звезда</td></tr>
+<tr><td>&#10036;</td><td></td><td>&amp;#10036;</td><td>\2734</td><td>Восьмиконечная закрашенная звезда</td></tr>
+<tr><td>&#10035;</td><td></td><td>&amp;#10035;</td><td>\2733</td><td>Восьмиконечная звёздочка</td></tr>
+<tr><td>&#10034;</td><td></td><td>&amp;#10034;</td><td>\2732</td><td>Звёздочка с незакрашенным центром</td></tr>
+<tr><td>&#10033;</td><td></td><td>&amp;#10033;</td><td>\2731</td><td>Жирная звёздочка</td></tr>
+<tr><td>&#10023;</td><td></td><td>&amp;#10023;</td><td>\2727</td><td>Заострённая четырёхконечная незакрашенная звезда</td></tr>
+<tr><td>&#10022;</td><td></td><td>&amp;#10022;</td><td>\2726</td><td>Заострённая четырёхконечная закрашенная звезда</td></tr>
+<tr><td>&#9055;</td><td></td><td>&amp;#9055;</td><td>\235f</td><td>Звезда в круге</td></tr>
+<tr><td>&#8859;</td><td></td><td>&amp;#8859;</td><td>\229b</td><td>Снежинка в круге</td></tr>
 
-<tr><th colspan="4">Диакритика</th></tr>
-<tr><td data-copy="&#768;">a&#768;</td><td></td><td>&amp;#768;</td><td>Grave accent</td></tr>
-<tr><td data-copy="&#769;">a&#769;</td><td></td><td>&amp;#769;</td><td>Acute accent</td></tr>
-<tr><td data-copy="&#770;">a&#770;</td><td></td><td>&amp;#770;</td><td>Circumflex accent</td></tr>
-<tr><td data-copy="&#771;">a&#771;</td><td></td><td>&amp;#771;</td><td>Tilde</td></tr>
-<tr><td data-copy="&#772;">a&#772;</td><td></td><td>&amp;#772;</td><td>Macron</td></tr>
-<tr><td data-copy="&#773;">a&#773;</td><td></td><td>&amp;#773;</td><td>Overline</td></tr>
-<tr><td data-copy="&#774;">a&#774;</td><td></td><td>&amp;#774;</td><td>Breve</td></tr>
-<tr><td data-copy="&#775;">a&#775;</td><td></td><td>&amp;#775;</td><td>Dot above</td></tr>
-<tr><td data-copy="&#776;">a&#776;</td><td></td><td>&amp;#776;</td><td>Diaeresis</td></tr>
-<tr><td data-copy="&#777;">a&#777;</td><td></td><td>&amp;#777;</td><td>Hook above</td></tr>
-<tr><td data-copy="&#778;">a&#778;</td><td></td><td>&amp;#778;</td><td>Ring above</td></tr>
-<tr><td data-copy="&#779;">a&#779;</td><td></td><td>&amp;#779;</td><td>Double acute accent</td></tr>
-<tr><td data-copy="&#780;">a&#780;</td><td></td><td>&amp;#780;</td><td>Caron</td></tr>
-<tr><td data-copy="&#781;">a&#781;</td><td></td><td>&amp;#781;</td><td>Vertical line above</td></tr>
-<tr><td data-copy="&#782;">a&#782;</td><td></td><td>&amp;#782;</td><td>Double vertical line above</td></tr>
-<tr><td data-copy="&#783;">a&#783;</td><td></td><td>&amp;#783;</td><td>Double grave accent</td></tr>
-<tr><td data-copy="&#784;">a&#784;</td><td></td><td>&amp;#784;</td><td>Candrabindu</td></tr>
-<tr><td data-copy="&#785;">a&#785;</td><td></td><td>&amp;#785;</td><td>Inverted breve</td></tr>
-<tr><td data-copy="&#786;">a&#786;</td><td></td><td>&amp;#786;</td><td>Turned comma above</td></tr>
-<tr><td data-copy="&#787;">a&#787;</td><td></td><td>&amp;#787;</td><td>Comma above</td></tr>
-<tr><td data-copy="&#788;">a&#788;</td><td></td><td>&amp;#788;</td><td>Reversed comma above</td></tr>
-<tr><td data-copy="&#789;">a&#789;</td><td></td><td>&amp;#789;</td><td>Comma above right</td></tr>
-<tr><td data-copy="&#790;">a&#790;</td><td></td><td>&amp;#790;</td><td>Grave accent below</td></tr>
-<tr><td data-copy="&#791;">a&#791;</td><td></td><td>&amp;#791;</td><td>Acute accent below</td></tr>
-<tr><td data-copy="&#792;">a&#792;</td><td></td><td>&amp;#792;</td><td>Left tack below</td></tr>
-<tr><td data-copy="&#793;">a&#793;</td><td></td><td>&amp;#793;</td><td>Right tack below</td></tr>
-<tr><td data-copy="&#794;">a&#794;</td><td></td><td>&amp;#794;</td><td>Left angle above</td></tr>
-<tr><td data-copy="&#795;">a&#795;</td><td></td><td>&amp;#795;</td><td>Horn</td></tr>
-<tr><td data-copy="&#796;">a&#796;</td><td></td><td>&amp;#796;</td><td>Left half ring below</td></tr>
-<tr><td data-copy="&#797;">a&#797;</td><td></td><td>&amp;#797;</td><td>Up tack below</td></tr>
-<tr><td data-copy="&#798;">a&#798;</td><td></td><td>&amp;#798;</td><td>Down tack below</td></tr>
-<tr><td data-copy="&#799;">a&#799;</td><td></td><td>&amp;#799;</td><td>Plus sign below</td></tr>
-<tr><td data-copy="&#800;">a&#800;</td><td></td><td>&amp;#800;</td><td>Minus sign below</td></tr>
-<tr><td data-copy="&#801;">a&#801;</td><td></td><td>&amp;#801;</td><td>Palatalized hook below</td></tr>
-<tr><td data-copy="&#802;">a&#802;</td><td></td><td>&amp;#802;</td><td>Retroflex hook below</td></tr>
-<tr><td data-copy="&#803;">a&#803;</td><td></td><td>&amp;#803;</td><td>Dot below</td></tr>
-<tr><td data-copy="&#804;">a&#804;</td><td></td><td>&amp;#804;</td><td>Diaeresis below</td></tr>
-<tr><td data-copy="&#805;">a&#805;</td><td></td><td>&amp;#805;</td><td>Ring below</td></tr>
-<tr><td data-copy="&#806;">a&#806;</td><td></td><td>&amp;#806;</td><td>Comma below</td></tr>
-<tr><td data-copy="&#807;">a&#807;</td><td></td><td>&amp;#807;</td><td>Cedilla</td></tr>
-<tr><td data-copy="&#808;">a&#808;</td><td></td><td>&amp;#808;</td><td>Ogonek</td></tr>
-<tr><td data-copy="&#809;">a&#809;</td><td></td><td>&amp;#809;</td><td>Vertical line below</td></tr>
-<tr><td data-copy="&#810;">a&#810;</td><td></td><td>&amp;#810;</td><td>Bridge below</td></tr>
-<tr><td data-copy="&#811;">a&#811;</td><td></td><td>&amp;#811;</td><td>Inverted double arch below</td></tr>
-<tr><td data-copy="&#812;">a&#812;</td><td></td><td>&amp;#812;</td><td>Caron below</td></tr>
-<tr><td data-copy="&#813;">a&#813;</td><td></td><td>&amp;#813;</td><td>Circumflex accent below</td></tr>
-<tr><td data-copy="&#814;">a&#814;</td><td></td><td>&amp;#814;</td><td>Breve below</td></tr>
-<tr><td data-copy="&#815;">a&#815;</td><td></td><td>&amp;#815;</td><td>Inverted breve below</td></tr>
-<tr><td data-copy="&#816;">a&#816;</td><td></td><td>&amp;#816;</td><td>Tilde below</td></tr>
-<tr><td data-copy="&#817;">a&#817;</td><td></td><td>&amp;#817;</td><td>Macron below</td></tr>
-<tr><td data-copy="&#818;">a&#818;</td><td></td><td>&amp;#818;</td><td>Low line</td></tr>
-<tr><td data-copy="&#819;">a&#819;</td><td></td><td>&amp;#819;</td><td>Double low line</td></tr>
-<tr><td data-copy="&#820;">a&#820;</td><td></td><td>&amp;#820;</td><td>Tilde overlay</td></tr>
-<tr><td data-copy="&#821;">a&#821;</td><td></td><td>&amp;#821;</td><td>Short stroke overlay</td></tr>
-<tr><td data-copy="&#822;">a&#822;</td><td></td><td>&amp;#822;</td><td>Long stroke overlay</td></tr>
-<tr><td data-copy="&#823;">a&#823;</td><td></td><td>&amp;#823;</td><td>Short solidus overlay</td></tr>
-<tr><td data-copy="&#824;">a&#824;</td><td></td><td>&amp;#824;</td><td>Long solidus overlay</td></tr>
-<tr><td data-copy="&#825;">a&#825;</td><td></td><td>&amp;#825;</td><td>Right half ring below</td></tr>
-<tr><td data-copy="&#826;">a&#826;</td><td></td><td>&amp;#826;</td><td>Inverted bridge below</td></tr>
-<tr><td data-copy="&#827;">a&#827;</td><td></td><td>&amp;#827;</td><td>Square below</td></tr>
-<tr><td data-copy="&#828;">a&#828;</td><td></td><td>&amp;#828;</td><td>Seagull below</td></tr>
-<tr><td data-copy="&#829;">a&#829;</td><td></td><td>&amp;#829;</td><td>X above</td></tr>
-<tr><td data-copy="&#830;">a&#830;</td><td></td><td>&amp;#830;</td><td>Vertical tilde</td></tr>
-<tr><td data-copy="&#831;">a&#831;</td><td></td><td>&amp;#831;</td><td>Double overline</td></tr>
-<tr><td data-copy="&#832;">a&#832;</td><td></td><td>&amp;#832;</td><td>Grave tone mark</td></tr>
-<tr><td data-copy="&#833;">a&#833;</td><td></td><td>&amp;#833;</td><td>Acute tone mark</td></tr>
-<tr><td data-copy="&#834;">a&#834;</td><td></td><td>&amp;#834;</td><td>Greek perispomeni (combined with theta)</td></tr>
-<tr><td data-copy="&#835;">a&#835;</td><td></td><td>&amp;#835;</td><td>Greek koronis (combined with theta)</td></tr>
-<tr><td data-copy="&#836;">a&#836;</td><td></td><td>&amp;#836;</td><td>Greek dialytika tonos (combined with theta)</td></tr>
-<tr><td data-copy="&#837;">a&#837;</td><td></td><td>&amp;#837;</td><td>Greek ypogegrammeni (combined with theta)</td></tr>
-<tr><td data-copy="&#838;">a&#838;</td><td></td><td>&amp;#838;</td><td>Bridge above</td></tr>
-<tr><td data-copy="&#839;">a&#839;</td><td></td><td>&amp;#839;</td><td>Equals sign below</td></tr>
-<tr><td data-copy="&#840;">a&#840;</td><td></td><td>&amp;#840;</td><td>Double vertical line below</td></tr>
-<tr><td data-copy="&#841;">a&#841;</td><td></td><td>&amp;#841;</td><td>Left angle below</td></tr>
-<tr><td data-copy="&#842;">a&#842;</td><td></td><td>&amp;#842;</td><td>Not tilde above</td></tr>
-<tr><td data-copy="&#843;">a&#843;</td><td></td><td>&amp;#843;</td><td>Homothetic above</td></tr>
-<tr><td data-copy="&#844;">a&#844;</td><td></td><td>&amp;#844;</td><td>Almost equal to above</td></tr>
-<tr><td data-copy="&#845;">a&#845;</td><td></td><td>&amp;#845;</td><td>Left right arrow below</td></tr>
-<tr><td data-copy="&#846;">a&#846;</td><td></td><td>&amp;#846;</td><td>Upwards arrow below</td></tr>
-<tr><td data-copy="&#847;">a&#847;</td><td></td><td>&amp;#847;</td><td>Grapheme joiner</td></tr>
-<tr><td data-copy="&#848;">a&#848;</td><td></td><td>&amp;#848;</td><td>Right arrowhead above</td></tr>
-<tr><td data-copy="&#849;">a&#849;</td><td></td><td>&amp;#849;</td><td>Left half ring above</td></tr>
-<tr><td data-copy="&#850;">a&#850;</td><td></td><td>&amp;#850;</td><td>Fermata</td></tr>
-<tr><td data-copy="&#851;">a&#851;</td><td></td><td>&amp;#851;</td><td>X below</td></tr>
-<tr><td data-copy="&#852;">a&#852;</td><td></td><td>&amp;#852;</td><td>Left arrowhead below</td></tr>
-<tr><td data-copy="&#853;">a&#853;</td><td></td><td>&amp;#853;</td><td>Right arrowhead below</td></tr>
-<tr><td data-copy="&#854;">a&#854;</td><td></td><td>&amp;#854;</td><td>Right arrowhead and up arrowhead below</td></tr>
-<tr><td data-copy="&#855;">a&#855;</td><td></td><td>&amp;#855;</td><td>Right half ring above</td></tr>
-<tr><td data-copy="&#856;">a&#856;</td><td></td><td>&amp;#856;</td><td>Dot above right</td></tr>
-<tr><td data-copy="&#857;">a&#857;</td><td></td><td>&amp;#857;</td><td>Asterisk below</td></tr>
-<tr><td data-copy="&#858;">a&#858;</td><td></td><td>&amp;#858;</td><td>Double ring below</td></tr>
-<tr><td data-copy="&#859;">a&#859;</td><td></td><td>&amp;#859;</td><td>Zigzag above</td></tr>
-<tr><td data-copy="&#860;">a&#860;</td><td></td><td>&amp;#860;</td><td>Double breve below</td></tr>
-<tr><td data-copy="&#861;">a&#861;</td><td></td><td>&amp;#861;</td><td>Double breve</td></tr>
-<tr><td data-copy="&#862;">a&#862;</td><td></td><td>&amp;#862;</td><td>Double macron</td></tr>
-<tr><td data-copy="&#863;">a&#863;</td><td></td><td>&amp;#863;</td><td>Double macron below</td></tr>
-<tr><td data-copy="&#864;">a&#864;</td><td></td><td>&amp;#864;</td><td>Double tilde</td></tr>
-<tr><td data-copy="&#865;">a&#865;</td><td></td><td>&amp;#865;</td><td>Double inverted breve</td></tr>
-<tr><td data-copy="&#866;">a&#866;</td><td></td><td>&amp;#866;</td><td>Double rightwards arrow below</td></tr>
-<tr><td data-copy="&#867;">a&#867;</td><td></td><td>&amp;#867;</td><td>Latin small letter a</td></tr>
-<tr><td data-copy="&#868;">a&#868;</td><td></td><td>&amp;#868;</td><td>Latin small letter e</td></tr>
-<tr><td data-copy="&#869;">a&#869;</td><td></td><td>&amp;#869;</td><td>Latin small letter i</td></tr>
-<tr><td data-copy="&#870;">a&#870;</td><td></td><td>&amp;#870;</td><td>Latin small letter o</td></tr>
-<tr><td data-copy="&#871;">a&#871;</td><td></td><td>&amp;#871;</td><td>Latin small letter u</td></tr>
-<tr><td data-copy="&#872;">a&#872;</td><td></td><td>&amp;#872;</td><td>Latin small letter c</td></tr>
-<tr><td data-copy="&#873;">a&#873;</td><td></td><td>&amp;#873;</td><td>Latin small letter d</td></tr>
-<tr><td data-copy="&#874;">a&#874;</td><td></td><td>&amp;#874;</td><td>Latin small letter h</td></tr>
-<tr><td data-copy="&#875;">a&#875;</td><td></td><td>&amp;#875;</td><td>Latin small letter m</td></tr>
-<tr><td data-copy="&#876;">a&#876;</td><td></td><td>&amp;#876;</td><td>Latin small letter r</td></tr>
-<tr><td data-copy="&#877;">a&#877;</td><td></td><td>&amp;#877;</td><td>Latin small letter t</td></tr>
-<tr><td data-copy="&#878;">a&#878;</td><td></td><td>&amp;#878;</td><td>Latin small letter v</td></tr>
-<tr><td data-copy="&#879;">a&#879;</td><td></td><td>&amp;#879;</td><td>Latin small letter x</td></tr>
-
-<tr><th colspan="4">Расширенная латиница</th></tr>
-<tr><td data-copy="&#260;">&#260;</td><td></td><td>&amp;#260;</td><td>Латинская заглавная буква «A» с огонэком</td></tr>
-<tr><td data-copy="&#261;">&#261;</td><td></td><td>&amp;#261;</td><td>Латинская строчная буква «a» с огонэком</td></tr>
-<tr><td data-copy="&#262;">&#262;</td><td></td><td>&amp;#262;</td><td>Латинская заглавная буква «C» с акутом</td></tr>
-<tr><td data-copy="&#263;">&#263;</td><td></td><td>&amp;#263;</td><td>Латинская строчная буква «c» с акутом</td></tr>
-<tr><td data-copy="&#280;">&#280;</td><td></td><td>&amp;#280;</td><td>Латинская заглавная буква «E» с огонэком</td></tr>
-<tr><td data-copy="&#281;">&#281;</td><td></td><td>&amp;#281;</td><td>Латинская строчная буква «e» с огонэком</td></tr>
-<tr><td data-copy="&#321;">&#321;</td><td></td><td>&amp;#321;</td><td>Латинская заглавная буква «L» со штрихом</td></tr>
-<tr><td data-copy="&#322;">&#322;</td><td></td><td>&amp;#322;</td><td>Латинская строчная буква «l» со штрихом</td></tr>
-<tr><td data-copy="&#323;">&#323;</td><td></td><td>&amp;#323;</td><td>Латинская заглавная буква «N» с акутом</td></tr>
-<tr><td data-copy="&#324;">&#324;</td><td></td><td>&amp;#324;</td><td>Латинская строчная буква «n» с акутом</td></tr>
-<tr><td data-copy="&#211;">&#211;</td><td></td><td>&amp;#211;</td><td>Латинская заглавная буква «O» с акутом</td></tr>
-<tr><td data-copy="&#243;">&#243;</td><td></td><td>&amp;#243;</td><td>Латинская строчная буква «o» с акутом</td></tr>
-<tr><td data-copy="&#346;">&#346;</td><td></td><td>&amp;#346;</td><td>Латинская заглавная буква «S» с акутом</td></tr>
-<tr><td data-copy="&#347;">&#347;</td><td></td><td>&amp;#347;</td><td>Латинская строчная буква «s» с акутом</td></tr>
-<tr><td data-copy="&#377;">&#377;</td><td></td><td>&amp;#377;</td><td>Латинская заглавная буква «Z» с акутом</td></tr>
-<tr><td data-copy="&#378;">&#378;</td><td></td><td>&amp;#378;</td><td>Латинская строчная буква «z» с акутом</td></tr>
-<tr><td data-copy="&#379;">&#379;</td><td></td><td>&amp;#379;</td><td>Латинская заглавная буква «Z» с точкой сверху</td></tr>
-<tr><td data-copy="&#380;">&#380;</td><td></td><td>&amp;#380;</td><td>Латинская строчная буква «z» с точкой сверху</td></tr>
+<tr><th colspan="5">Расширенная латиница</th></tr>
+<tr><td data-copy="&#260;">&#260;</td><td></td><td>&amp;#260;</td><td>\0104</td><td>Латинская заглавная буква «A» с огонэком</td></tr>
+<tr><td data-copy="&#261;">&#261;</td><td></td><td>&amp;#261;</td><td>\0105</td><td>Латинская строчная буква «a» с огонэком</td></tr>
+<tr><td data-copy="&#262;">&#262;</td><td></td><td>&amp;#262;</td><td>\0106</td><td>Латинская заглавная буква «C» с акутом</td></tr>
+<tr><td data-copy="&#263;">&#263;</td><td></td><td>&amp;#263;</td><td>\0107</td><td>Латинская строчная буква «c» с акутом</td></tr>
+<tr><td data-copy="&#280;">&#280;</td><td></td><td>&amp;#280;</td><td>\0118</td><td>Латинская заглавная буква «E» с огонэком</td></tr>
+<tr><td data-copy="&#281;">&#281;</td><td></td><td>&amp;#281;</td><td>\0119</td><td>Латинская строчная буква «e» с огонэком</td></tr>
+<tr><td data-copy="&#321;">&#321;</td><td></td><td>&amp;#321;</td><td>\0141</td><td>Латинская заглавная буква «L» со штрихом</td></tr>
+<tr><td data-copy="&#322;">&#322;</td><td></td><td>&amp;#322;</td><td>\0142</td><td>Латинская строчная буква «l» со штрихом</td></tr>
+<tr><td data-copy="&#323;">&#323;</td><td></td><td>&amp;#323;</td><td>\0143</td><td>Латинская заглавная буква «N» с акутом</td></tr>
+<tr><td data-copy="&#324;">&#324;</td><td></td><td>&amp;#324;</td><td>\0144</td><td>Латинская строчная буква «n» с акутом</td></tr>
+<tr><td data-copy="&#211;">&#211;</td><td></td><td>&amp;#211;</td><td>\00D3</td><td>Латинская заглавная буква «O» с акутом</td></tr>
+<tr><td data-copy="&#243;">&#243;</td><td></td><td>&amp;#243;</td><td>\00F3</td><td>Латинская строчная буква «o» с акутом</td></tr>
+<tr><td data-copy="&#346;">&#346;</td><td></td><td>&amp;#346;</td><td>\015A</td><td>Латинская заглавная буква «S» с акутом</td></tr>
+<tr><td data-copy="&#347;">&#347;</td><td></td><td>&amp;#347;</td><td>\015B</td><td>Латинская строчная буква «s» с акутом</td></tr>
+<tr><td data-copy="&#377;">&#377;</td><td></td><td>&amp;#377;</td><td>\0179</td><td>Латинская заглавная буква «Z» с акутом</td></tr>
+<tr><td data-copy="&#378;">&#378;</td><td></td><td>&amp;#378;</td><td>\017A</td><td>Латинская строчная буква «z» с акутом</td></tr>
+<tr><td data-copy="&#379;">&#379;</td><td></td><td>&amp;#379;</td><td>\017B</td><td>Латинская заглавная буква «Z» с точкой сверху</td></tr>
+<tr><td data-copy="&#380;">&#380;</td><td></td><td>&amp;#380;</td><td>\017C</td><td>Латинская строчная буква «z» с точкой сверху</td></tr>
 </table>
 
-<table class="col-5">
+<table class="diacritics">
+<tr><th colspan="3">Диакритика</th></tr>
+<tr><td data-copy="&#768;">a&#768;</td><td>&amp;#768;</td><td>Grave accent</td></tr>
+<tr><td data-copy="&#769;">a&#769;</td><td>&amp;#769;</td><td>Acute accent</td></tr>
+<tr><td data-copy="&#770;">a&#770;</td><td>&amp;#770;</td><td>Circumflex accent</td></tr>
+<tr><td data-copy="&#771;">a&#771;</td><td>&amp;#771;</td><td>Tilde</td></tr>
+<tr><td data-copy="&#772;">a&#772;</td><td>&amp;#772;</td><td>Macron</td></tr>
+<tr><td data-copy="&#773;">a&#773;</td><td>&amp;#773;</td><td>Overline</td></tr>
+<tr><td data-copy="&#774;">a&#774;</td><td>&amp;#774;</td><td>Breve</td></tr>
+<tr><td data-copy="&#775;">a&#775;</td><td>&amp;#775;</td><td>Dot above</td></tr>
+<tr><td data-copy="&#776;">a&#776;</td><td>&amp;#776;</td><td>Diaeresis</td></tr>
+<tr><td data-copy="&#777;">a&#777;</td><td>&amp;#777;</td><td>Hook above</td></tr>
+<tr><td data-copy="&#778;">a&#778;</td><td>&amp;#778;</td><td>Ring above</td></tr>
+<tr><td data-copy="&#779;">a&#779;</td><td>&amp;#779;</td><td>Double acute accent</td></tr>
+<tr><td data-copy="&#780;">a&#780;</td><td>&amp;#780;</td><td>Caron</td></tr>
+<tr><td data-copy="&#781;">a&#781;</td><td>&amp;#781;</td><td>Vertical line above</td></tr>
+<tr><td data-copy="&#782;">a&#782;</td><td>&amp;#782;</td><td>Double vertical line above</td></tr>
+<tr><td data-copy="&#783;">a&#783;</td><td>&amp;#783;</td><td>Double grave accent</td></tr>
+<tr><td data-copy="&#784;">a&#784;</td><td>&amp;#784;</td><td>Candrabindu</td></tr>
+<tr><td data-copy="&#785;">a&#785;</td><td>&amp;#785;</td><td>Inverted breve</td></tr>
+<tr><td data-copy="&#786;">a&#786;</td><td>&amp;#786;</td><td>Turned comma above</td></tr>
+<tr><td data-copy="&#787;">a&#787;</td><td>&amp;#787;</td><td>Comma above</td></tr>
+<tr><td data-copy="&#788;">a&#788;</td><td>&amp;#788;</td><td>Reversed comma above</td></tr>
+<tr><td data-copy="&#789;">a&#789;</td><td>&amp;#789;</td><td>Comma above right</td></tr>
+<tr><td data-copy="&#790;">a&#790;</td><td>&amp;#790;</td><td>Grave accent below</td></tr>
+<tr><td data-copy="&#791;">a&#791;</td><td>&amp;#791;</td><td>Acute accent below</td></tr>
+<tr><td data-copy="&#792;">a&#792;</td><td>&amp;#792;</td><td>Left tack below</td></tr>
+<tr><td data-copy="&#793;">a&#793;</td><td>&amp;#793;</td><td>Right tack below</td></tr>
+<tr><td data-copy="&#794;">a&#794;</td><td>&amp;#794;</td><td>Left angle above</td></tr>
+<tr><td data-copy="&#795;">a&#795;</td><td>&amp;#795;</td><td>Horn</td></tr>
+<tr><td data-copy="&#796;">a&#796;</td><td>&amp;#796;</td><td>Left half ring below</td></tr>
+<tr><td data-copy="&#797;">a&#797;</td><td>&amp;#797;</td><td>Up tack below</td></tr>
+<tr><td data-copy="&#798;">a&#798;</td><td>&amp;#798;</td><td>Down tack below</td></tr>
+<tr><td data-copy="&#799;">a&#799;</td><td>&amp;#799;</td><td>Plus sign below</td></tr>
+<tr><td data-copy="&#800;">a&#800;</td><td>&amp;#800;</td><td>Minus sign below</td></tr>
+<tr><td data-copy="&#801;">a&#801;</td><td>&amp;#801;</td><td>Palatalized hook below</td></tr>
+<tr><td data-copy="&#802;">a&#802;</td><td>&amp;#802;</td><td>Retroflex hook below</td></tr>
+<tr><td data-copy="&#803;">a&#803;</td><td>&amp;#803;</td><td>Dot below</td></tr>
+<tr><td data-copy="&#804;">a&#804;</td><td>&amp;#804;</td><td>Diaeresis below</td></tr>
+<tr><td data-copy="&#805;">a&#805;</td><td>&amp;#805;</td><td>Ring below</td></tr>
+<tr><td data-copy="&#806;">a&#806;</td><td>&amp;#806;</td><td>Comma below</td></tr>
+<tr><td data-copy="&#807;">a&#807;</td><td>&amp;#807;</td><td>Cedilla</td></tr>
+<tr><td data-copy="&#808;">a&#808;</td><td>&amp;#808;</td><td>Ogonek</td></tr>
+<tr><td data-copy="&#809;">a&#809;</td><td>&amp;#809;</td><td>Vertical line below</td></tr>
+<tr><td data-copy="&#810;">a&#810;</td><td>&amp;#810;</td><td>Bridge below</td></tr>
+<tr><td data-copy="&#811;">a&#811;</td><td>&amp;#811;</td><td>Inverted double arch below</td></tr>
+<tr><td data-copy="&#812;">a&#812;</td><td>&amp;#812;</td><td>Caron below</td></tr>
+<tr><td data-copy="&#813;">a&#813;</td><td>&amp;#813;</td><td>Circumflex accent below</td></tr>
+<tr><td data-copy="&#814;">a&#814;</td><td>&amp;#814;</td><td>Breve below</td></tr>
+<tr><td data-copy="&#815;">a&#815;</td><td>&amp;#815;</td><td>Inverted breve below</td></tr>
+<tr><td data-copy="&#816;">a&#816;</td><td>&amp;#816;</td><td>Tilde below</td></tr>
+<tr><td data-copy="&#817;">a&#817;</td><td>&amp;#817;</td><td>Macron below</td></tr>
+<tr><td data-copy="&#818;">a&#818;</td><td>&amp;#818;</td><td>Low line</td></tr>
+<tr><td data-copy="&#819;">a&#819;</td><td>&amp;#819;</td><td>Double low line</td></tr>
+<tr><td data-copy="&#820;">a&#820;</td><td>&amp;#820;</td><td>Tilde overlay</td></tr>
+<tr><td data-copy="&#821;">a&#821;</td><td>&amp;#821;</td><td>Short stroke overlay</td></tr>
+<tr><td data-copy="&#822;">a&#822;</td><td>&amp;#822;</td><td>Long stroke overlay</td></tr>
+<tr><td data-copy="&#823;">a&#823;</td><td>&amp;#823;</td><td>Short solidus overlay</td></tr>
+<tr><td data-copy="&#824;">a&#824;</td><td>&amp;#824;</td><td>Long solidus overlay</td></tr>
+<tr><td data-copy="&#825;">a&#825;</td><td>&amp;#825;</td><td>Right half ring below</td></tr>
+<tr><td data-copy="&#826;">a&#826;</td><td>&amp;#826;</td><td>Inverted bridge below</td></tr>
+<tr><td data-copy="&#827;">a&#827;</td><td>&amp;#827;</td><td>Square below</td></tr>
+<tr><td data-copy="&#828;">a&#828;</td><td>&amp;#828;</td><td>Seagull below</td></tr>
+<tr><td data-copy="&#829;">a&#829;</td><td>&amp;#829;</td><td>X above</td></tr>
+<tr><td data-copy="&#830;">a&#830;</td><td>&amp;#830;</td><td>Vertical tilde</td></tr>
+<tr><td data-copy="&#831;">a&#831;</td><td>&amp;#831;</td><td>Double overline</td></tr>
+<tr><td data-copy="&#832;">a&#832;</td><td>&amp;#832;</td><td>Grave tone mark</td></tr>
+<tr><td data-copy="&#833;">a&#833;</td><td>&amp;#833;</td><td>Acute tone mark</td></tr>
+<tr><td data-copy="&#834;">a&#834;</td><td>&amp;#834;</td><td>Greek perispomeni (combined with theta)</td></tr>
+<tr><td data-copy="&#835;">a&#835;</td><td>&amp;#835;</td><td>Greek koronis (combined with theta)</td></tr>
+<tr><td data-copy="&#836;">a&#836;</td><td>&amp;#836;</td><td>Greek dialytika tonos (combined with theta)</td></tr>
+<tr><td data-copy="&#837;">a&#837;</td><td>&amp;#837;</td><td>Greek ypogegrammeni (combined with theta)</td></tr>
+<tr><td data-copy="&#838;">a&#838;</td><td>&amp;#838;</td><td>Bridge above</td></tr>
+<tr><td data-copy="&#839;">a&#839;</td><td>&amp;#839;</td><td>Equals sign below</td></tr>
+<tr><td data-copy="&#840;">a&#840;</td><td>&amp;#840;</td><td>Double vertical line below</td></tr>
+<tr><td data-copy="&#841;">a&#841;</td><td>&amp;#841;</td><td>Left angle below</td></tr>
+<tr><td data-copy="&#842;">a&#842;</td><td>&amp;#842;</td><td>Not tilde above</td></tr>
+<tr><td data-copy="&#843;">a&#843;</td><td>&amp;#843;</td><td>Homothetic above</td></tr>
+<tr><td data-copy="&#844;">a&#844;</td><td>&amp;#844;</td><td>Almost equal to above</td></tr>
+<tr><td data-copy="&#845;">a&#845;</td><td>&amp;#845;</td><td>Left right arrow below</td></tr>
+<tr><td data-copy="&#846;">a&#846;</td><td>&amp;#846;</td><td>Upwards arrow below</td></tr>
+<tr><td data-copy="&#847;">a&#847;</td><td>&amp;#847;</td><td>Grapheme joiner</td></tr>
+<tr><td data-copy="&#848;">a&#848;</td><td>&amp;#848;</td><td>Right arrowhead above</td></tr>
+<tr><td data-copy="&#849;">a&#849;</td><td>&amp;#849;</td><td>Left half ring above</td></tr>
+<tr><td data-copy="&#850;">a&#850;</td><td>&amp;#850;</td><td>Fermata</td></tr>
+<tr><td data-copy="&#851;">a&#851;</td><td>&amp;#851;</td><td>X below</td></tr>
+<tr><td data-copy="&#852;">a&#852;</td><td>&amp;#852;</td><td>Left arrowhead below</td></tr>
+<tr><td data-copy="&#853;">a&#853;</td><td>&amp;#853;</td><td>Right arrowhead below</td></tr>
+<tr><td data-copy="&#854;">a&#854;</td><td>&amp;#854;</td><td>Right arrowhead and up arrowhead below</td></tr>
+<tr><td data-copy="&#855;">a&#855;</td><td>&amp;#855;</td><td>Right half ring above</td></tr>
+<tr><td data-copy="&#856;">a&#856;</td><td>&amp;#856;</td><td>Dot above right</td></tr>
+<tr><td data-copy="&#857;">a&#857;</td><td>&amp;#857;</td><td>Asterisk below</td></tr>
+<tr><td data-copy="&#858;">a&#858;</td><td>&amp;#858;</td><td>Double ring below</td></tr>
+<tr><td data-copy="&#859;">a&#859;</td><td>&amp;#859;</td><td>Zigzag above</td></tr>
+<tr><td data-copy="&#860;">a&#860;</td><td>&amp;#860;</td><td>Double breve below</td></tr>
+<tr><td data-copy="&#861;">a&#861;</td><td>&amp;#861;</td><td>Double breve</td></tr>
+<tr><td data-copy="&#862;">a&#862;</td><td>&amp;#862;</td><td>Double macron</td></tr>
+<tr><td data-copy="&#863;">a&#863;</td><td>&amp;#863;</td><td>Double macron below</td></tr>
+<tr><td data-copy="&#864;">a&#864;</td><td>&amp;#864;</td><td>Double tilde</td></tr>
+<tr><td data-copy="&#865;">a&#865;</td><td>&amp;#865;</td><td>Double inverted breve</td></tr>
+<tr><td data-copy="&#866;">a&#866;</td><td>&amp;#866;</td><td>Double rightwards arrow below</td></tr>
+<tr><td data-copy="&#867;">a&#867;</td><td>&amp;#867;</td><td>Latin small letter a</td></tr>
+<tr><td data-copy="&#868;">a&#868;</td><td>&amp;#868;</td><td>Latin small letter e</td></tr>
+<tr><td data-copy="&#869;">a&#869;</td><td>&amp;#869;</td><td>Latin small letter i</td></tr>
+<tr><td data-copy="&#870;">a&#870;</td><td>&amp;#870;</td><td>Latin small letter o</td></tr>
+<tr><td data-copy="&#871;">a&#871;</td><td>&amp;#871;</td><td>Latin small letter u</td></tr>
+<tr><td data-copy="&#872;">a&#872;</td><td>&amp;#872;</td><td>Latin small letter c</td></tr>
+<tr><td data-copy="&#873;">a&#873;</td><td>&amp;#873;</td><td>Latin small letter d</td></tr>
+<tr><td data-copy="&#874;">a&#874;</td><td>&amp;#874;</td><td>Latin small letter h</td></tr>
+<tr><td data-copy="&#875;">a&#875;</td><td>&amp;#875;</td><td>Latin small letter m</td></tr>
+<tr><td data-copy="&#876;">a&#876;</td><td>&amp;#876;</td><td>Latin small letter r</td></tr>
+<tr><td data-copy="&#877;">a&#877;</td><td>&amp;#877;</td><td>Latin small letter t</td></tr>
+<tr><td data-copy="&#878;">a&#878;</td><td>&amp;#878;</td><td>Latin small letter v</td></tr>
+<tr><td data-copy="&#879;">a&#879;</td><td>&amp;#879;</td><td>Latin small letter x</td></tr>
+</table>
+
+<table class="greek">
 <tr><th colspan="5">Греческий алфавит</th></tr>
 <tr><th colspan="2">Строчные</th><th colspan="2">Прописные</th><th rowspan="2">Описание</th></tr>
 <tr><th>Символ</th><th>HTML-код</th><th>Символ</th><th>HTML-код</th></tr>
@@ -353,8 +355,8 @@
 <tr><td>&omega;</td><td>&amp;omega;</td><td>&Omega;</td><td>&amp;Omega;</td><td>Омега</td></tr>
 </table>
 
-<table class="col-6">
-<tr><th colspan="6">Надстрочные и подстрочные знаки </th></tr>
+<table class="subscript">
+<tr><th colspan="6">Надстрочные и подстрочные знаки</th></tr>
 <tr><td>&#8304;</td><td>&amp;#8304;</td><td>&#8320;</td><td>&amp;#8320;</td><td>&#8336;</td><td>&amp;#8336;</td></tr>
 <tr><td>&#8305;</td><td>&amp;#8305;</td><td>&#8321;</td><td>&amp;#8321;</td><td>&#8337;</td><td>&amp;#8337;</td></tr>
 <tr><td></td><td></td><td>&#8322;</td><td>&amp;#8322;</td><td>&#8338;</td><td>&amp;#8338;</td></tr>

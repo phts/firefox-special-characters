@@ -13,23 +13,26 @@ th {
   padding: 5px;
 }
 
-.col-4 tr td:first-child,
-.col-5 tr td:first-child,
-.col-5 tr td:nth-child(3),
-.col-6 tr td:nth-child(1),
-.col-6 tr td:nth-child(3),
-.col-6 tr td:nth-child(5) {
+.main tr td:first-child,
+.diacritics tr td:first-child,
+.greek tr td:first-child,
+.greek tr td:nth-child(3),
+.subscript tr td:first-child,
+.subscript tr td:nth-child(3),
+.subscript tr td:nth-child(5) {
   font-size: 20px;
   text-align: center;
 }
 
-.col-4 tr td:nth-child(2),
-.col-4 tr td:nth-child(3),
-.col-5 tr td:nth-child(2),
-.col-5 tr td:nth-child(4),
-.col-6 tr td:nth-child(2),
-.col-6 tr td:nth-child(4),
-.col-6 tr td:nth-child(6) {
+.main tr td:nth-child(2),
+.main tr td:nth-child(3),
+.main tr td:nth-child(4),
+.diacritics tr td:nth-child(2),
+.greek tr td:nth-child(2),
+.greek tr td:nth-child(4),
+.subscript tr td:nth-child(2),
+.subscript tr td:nth-child(4),
+.subscript tr td:nth-child(6) {
   font-family: Courier New, monospace;
 }
 
