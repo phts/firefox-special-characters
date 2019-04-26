@@ -20,7 +20,7 @@ th {
 .subscript tr td:first-child,
 .subscript tr td:nth-child(3),
 .subscript tr td:nth-child(5) {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
