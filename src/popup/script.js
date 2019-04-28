@@ -86,5 +86,5 @@ window.addEventListener('unload', () => {
 const tables = document.querySelectorAll('table')
 tables.forEach(table => {
   table.addEventListener('click', copyOnClickHandler)
-  table.setAttribute('title', 'Кликните мышкой на ячейку, чтобы скопировать')
+  table.setAttribute('title', 'Click cell to copy')
 })
