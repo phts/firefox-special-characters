@@ -18,8 +18,7 @@ th {
 .greek tr td:first-child,
 .greek tr td:nth-child(3),
 .subscript tr td:first-child,
-.subscript tr td:nth-child(3),
-.subscript tr td:nth-child(5) {
+.subscript tr td:nth-child(3) {
   font-size: 18px;
   text-align: center;
 }
@@ -31,8 +30,7 @@ th {
 .greek tr td:nth-child(2),
 .greek tr td:nth-child(4),
 .subscript tr td:nth-child(2),
-.subscript tr td:nth-child(4),
-.subscript tr td:nth-child(6) {
+.subscript tr td:nth-child(4) {
   font-family: Courier New, monospace;
 }
 
