@@ -70,6 +70,19 @@ function copyOnClickHandler(event) {
     })
 }
 
+window.addEventListener('load', async () => {
+  const obj = await browser.storage.local.get()
+  if (!obj) {
+    return
+  }
+  const {scrollTop} = obj
+  window.scrollTo(0, scrollTop)
+})
+
+window.addEventListener('unload', () => {
+  browser.storage.local.set({scrollTop: window.scrollY})
+})
+
 const tables = document.querySelectorAll('table')
 tables.forEach(table => {
   table.addEventListener('click', copyOnClickHandler)
