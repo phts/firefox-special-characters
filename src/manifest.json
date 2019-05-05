@@ -4,7 +4,7 @@
   "version": "1.4.1",
   "author": "Phil Tsaryk",
 
-  "description": "Show a list of useful special characters",
+  "description": "List of useful Unicode characters including HTML- and CSS-codes",
   "homepage_url": "https://github.com/phts/firefox-special-characters",
   "icons": {
     "48": "icons/app-48.png"
