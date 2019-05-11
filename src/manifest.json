@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Special Characters",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Phil Tsaryk",
 
   "description": "List of useful Unicode characters including HTML- and CSS-codes",
