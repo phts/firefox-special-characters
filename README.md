@@ -6,3 +6,5 @@
 
 WebExtension for Mozilla Firefox.
 List of useful Unicode characters including HTML- and CSS-codes.
+
+![popup](https://addons.cdn.mozilla.net/user-media/previews/full/219/219115.png)
